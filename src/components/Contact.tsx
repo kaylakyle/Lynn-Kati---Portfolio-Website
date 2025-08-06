@@ -66,8 +66,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "lynn.kati@example.com",
-      href: "mailto:lynn.kati@example.com"
+      value: "lynnkati18@gmail.com",
+      href: "mailto:lynnkati18@gmail.com"
     },
     {
       icon: Phone,
@@ -78,14 +78,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/lynnkati",
-      href: "https://github.com/lynnkati"
+      value: "github.com/kaylakyle",
+      href: "https://github.com/kaylakyle"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/lynnkati",
-      href: "https://linkedin.com/in/lynnkati"
+      value: "linkedin.com/in/lynn-kati",
+      href: "https://linkedin.com/in/lynn-kati"
     }
   ];
 

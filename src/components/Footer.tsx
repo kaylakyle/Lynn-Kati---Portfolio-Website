@@ -50,14 +50,20 @@ const Footer = () => {
           <div className="space-y-4 md:text-right">
             <h4 className="font-semibold text-foreground">Connect With Me</h4>
             <div className="flex gap-2 md:justify-end">
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Github className="w-4 h-4" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="https://github.com/kaylakyle" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Linkedin className="w-4 h-4" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="https://linkedin.com/in/lynn-kati" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Mail className="w-4 h-4" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="mailto:lynnkati18@gmail.com">
+                  <Mail className="w-4 h-4" />
+                </a>
               </Button>
               <Button 
                 variant="soft" 

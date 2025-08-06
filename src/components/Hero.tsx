@@ -63,14 +63,20 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Github className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="https://github.com/kaylakyle" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Linkedin className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="https://linkedin.com/in/lynn-kati" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Mail className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="mailto:lynnkati18@gmail.com">
+                  <Mail className="w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>
