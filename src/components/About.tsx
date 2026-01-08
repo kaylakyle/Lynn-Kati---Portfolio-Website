@@ -2,11 +2,28 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Heart, Code, Sparkles, Target } from "lucide-react";
 
-const About = () => {
+// const About = () => {
+//   const interests = [
+//     "Clean Code", "UI/UX Design", "Problem Solving", "Self-Growth", 
+//     "Skincare", "Tech Innovation", "Database Design", "Team Collaboration"
+//   ];
+
+  const About = () => {
   const interests = [
-    "Clean Code", "UI/UX Design", "Problem Solving", "Self-Growth", 
-    "Skincare", "Tech Innovation", "Database Design", "Team Collaboration"
+    "Full-Stack Development (MERN)", 
+    "Python, Java, C# & JavaScript", 
+    "Software Engineering", 
+    "Start-Up & Entrepreneurial Skills", 
+    "UI/UX Design", 
+    "Problem Solving", 
+    "Skincare & Self-Care", 
+    "Personal Projects (ERP, Portfolio Apps)", 
+    "Team Collaboration & Mentorship", 
+    "Hackathons & Tech Competitions", 
+    "Continuous Learning"
   ];
+// };
+
 
   return (
     <section id="about" className="py-20 bg-background relative">
@@ -36,10 +53,11 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-foreground">My Journey</h3>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm a programming student who discovered my passion for technology through 
-                  the beauty of creating digital solutions. What started as curiosity has evolved 
-                  into a deep love for clean code, elegant design, and solving real-world problems 
-                  through technology.
+                  My journey as a developer is driven by curiosity, resilience, and continuous learning.
+I built a strong foundation through core programming concepts, self-study, hands-on practice, and real-world projects.
+As a former PLP Software Engineering Scholar, I gained practical experience through structured training, collaborative projects, and hackathons.
+These experiences strengthened my problem-solving abilities, adaptability, and disciplined approach to software development.
+I’m focused on building scalable, user-centered solutions and preparing for real-world software engineering roles.
                 </p>
               </CardContent>
             </Card>
@@ -72,12 +90,10 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-foreground">Current Focus</h3>
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  Right now, I'm diving deep into web development, mastering Java for 
-                  backend systems, and exploring the art of database design. Every project 
-                  is a new opportunity to learn and grow.
+                 My current focus is on building practical, scalable full-stack applications using the MERN stack while strengthening my understanding of software engineering principles, data structures, and system design. I’m also exploring Python frameworks to expand my backend capabilities, sharpening my skills through hands-on projects, hackathons, and continuous learning.
                 </p>
                 <div className="text-sm text-primary font-medium">
-                  Next up: Diving into React! 🚀
+                  Next up: Diving more into Python! 🚀
                 </div>
               </CardContent>
             </Card>

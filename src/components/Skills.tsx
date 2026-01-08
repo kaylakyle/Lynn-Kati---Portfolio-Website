@@ -18,11 +18,12 @@ const Skills = () => {
       icon: Code2,
       color: "bg-gradient-primary",
       skills: [
-        { name: "Java", level: "Intermediate" },
-        { name: "PHP", level: "Intermediate" },
-        { name: "JavaScript", level: "Learning" },
+        { name: "Javascript", level: "Proficient" },
+        { name: "Python", level: "Intermediate" },
         { name: "HTML/CSS", level: "Proficient" },
-        { name: "SQL", level: "Intermediate" }
+        { name: "MongoDB", level: "Intermediate" },
+        { name: "My SQL", level: "Proficient" },
+        { name: "Tailwind CSS", level: "Proficient" }
       ]
     },
     {
@@ -33,19 +34,19 @@ const Skills = () => {
         { name: "XAMPP", level: "Proficient" },
         { name: "MySQL Workbench", level: "Intermediate" },
         { name: "VS Code", level: "Proficient" },
-        { name: "Git/GitHub", level: "Learning" },
+        { name: "Git/GitHub", level: "Proficient" },
         { name: "Bootstrap", level: "Intermediate" }
       ]
     },
     {
-      title: "Design & UI",
+      title: "Frameworks & Libraries",
       icon: Palette,
       color: "bg-gradient-hero",
       skills: [
-        { name: "Responsive Design", level: "Proficient" },
-        { name: "UI/UX Principles", level: "Learning" },
-        { name: "Color Theory", level: "Intermediate" },
-        { name: "Typography", level: "Intermediate" },
+        { name: "React", level: "Proficient" },
+        { name: "Express js", level: "Proficient" },
+        { name: "Django", level: "Intermediate" },
+        { name: "Node.js", level: "Intermediate" },
         { name: "Prototyping", level: "Beginner" }
       ]
     },
@@ -64,10 +65,10 @@ const Skills = () => {
   ];
 
   const currentLearning = [
-    "React.js & Modern Frontend",
+    "Mobile App Development",
     "Advanced Database Design",
-    "API Development & Integration",
-    "Version Control with Git",
+    "AI in Software Engineering",
+    "Machine Learning Basics",
     "Agile Development Practices"
   ];
 

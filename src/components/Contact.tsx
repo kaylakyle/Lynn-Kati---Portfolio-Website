@@ -72,8 +72,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "WhatsApp",
-      value: "+254 XXX XXX XXX",
-      href: "https://wa.me/254XXXXXXXXX"
+      value: "+254 708 332 396",
+      href: "https://wa.me/254708332396"
     },
     {
       icon: Github,
@@ -85,7 +85,7 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/lynn-kati",
-      href: "https://linkedin.com/in/lynn-kati"
+      href: "https://www.linkedin.com/in/lynn-kati-7451102b2/"
     }
   ];
 
