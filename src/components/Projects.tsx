@@ -7,6 +7,24 @@ import { ExternalLink, Github, Database, Code, Globe } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+  {
+    title: "Cardano Wallet Connector & ADA Transfer DApp",
+    description:
+      "A decentralized application (DApp) built with React that connects to Cardano wallets, enabling users to securely send and receive ADA. Implements smart contract functionality for blockchain transactions and provides a Web3 interface for seamless interaction between the frontend and the Cardano network.",
+    tech: ["React.js", "JavaScript", "Cardano Blockchain", "Smart Contracts", "Solidity",],
+    category: "Blockchain / Web3 Application",
+    icon: Database,
+    highlights: [
+      "Wallet connection and authentication",
+      "ADA transfer between users",
+      "Smart contract integration",
+      "Web3.js for blockchain communication",
+      "Secure and decentralized transaction workflow"
+    ],
+    status: "In Progress",
+    github: "https://github.com/yourusername/cardano-wallet-dapp",
+    demo: "https://your-demo-link.vercel.app/"
+  },
     {
       title: "Safe-haven-africa",
       description:
