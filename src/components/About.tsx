@@ -12,6 +12,7 @@ import { Heart, Code, Sparkles, Target } from "lucide-react";
   const interests = [
     "Full-Stack Development (MERN)", 
     "Python, Java, C# & JavaScript", 
+    "Blockchain Development",
     "Software Engineering", 
     "Start-Up & Entrepreneurial Skills", 
     "UI/UX Design", 
@@ -90,7 +91,7 @@ I’m focused on building scalable, user-centered solutions and preparing for re
                   <h3 className="text-xl font-semibold text-foreground">Current Focus</h3>
                 </div>
                 <p className="text-muted-foreground mb-4">
-                 My current focus is on building practical, scalable full-stack applications using the MERN stack while strengthening my understanding of software engineering principles, data structures, and system design. I’m also exploring Python frameworks to expand my backend capabilities, sharpening my skills through hands-on projects, hackathons, and continuous learning.
+My current focus is on building practical, scalable full-stack applications using the MERN stack while strengthening my understanding of software engineering principles, data structures, and system design.I am also exploring blockchain engineering, learning the fundamentals of smart contracts and decentralized applications, and understanding how my existing skills in JavaScript and modern web development translate into this space.Additionally, I’m exploring Python frameworks to expand my backend capabilities, sharpening my skills through hands-on projects, hackathons, and continuous learning.
                 </p>
                 <div className="text-sm text-primary font-medium">
                   Next up: Diving more into Python! 🚀
