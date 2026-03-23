@@ -39,8 +39,8 @@ const Projects = () => {
       "Live Smart Contract Interaction"
     ],
     status: "In Progress",
-    github: "https://github.com/YOUR-USERNAME/project_web3_battle_game",
-    demo: "https://YOUR-DEMO-LINK.vercel.app/"   
+    github: "https://github.com/kaylakyle/web3.0-multiplayer-game",
+    demo: "https://github.com/kaylakyle/web3.0-multiplayer-game"   
     },
     {
      title: "Safe-haven-africa",
