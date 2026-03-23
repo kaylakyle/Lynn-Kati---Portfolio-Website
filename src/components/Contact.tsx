@@ -34,11 +34,11 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const phoneNumber = "254708332396"; // your number in international format (Kenya)
+    const phoneNumber = "254708332396"; // Kenya number in international format
     const whatsappMessage = `Hello Lynn, I am ${formData.name} (${formData.email}). Message: ${formData.message}`;
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-    window.open(whatsappLink, "_blank"); // opens WhatsApp Web or App
+    window.open(whatsappLink, "_blank");
 
     toast({
       title: "Message ready to send!",
@@ -178,15 +178,23 @@ const Contact = () => {
                 I'm always excited to work on new projects and learn from experienced developers.
               </p>
               <div className="flex gap-3">
-                <Button as="a" href="/assets/Lynn_Kati_CV.pdf" download
-                        variant="outline" size="sm"
-                        className="flex-1 bg-white/20 border-white/30 text-accent-foreground hover:bg-white/30">
-                  Download CV
-                </Button>
-                <Button as="a" href="https://calendly.com/lynn-kati/30min" target="_blank" rel="noopener noreferrer"
-                        variant="default" size="sm" className="flex-1">
-                  Schedule Call
-                </Button>
+                {/* Download CV */}
+                <a href="/assets/Lynn_Kati_CV.pdf" download className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full bg-white/20 border-white/30 text-accent-foreground hover:bg-white/30"
+                  >
+                    Download CV
+                  </Button>
+                </a>
+
+                {/* Schedule Call */}
+                <a href="https://calendly.com/lynn-kati/30min" target="_blank" rel="noopener noreferrer" className="flex-1">
+                  <Button variant="default" size="sm" className="w-full">
+                    Schedule Call
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
