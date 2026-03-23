@@ -179,7 +179,7 @@ const Contact = () => {
               </p>
               <div className="flex gap-3">
                 {/* Download CV */}
-                <a href="/assets/Lynn_Kati_CV.pdf" download className="flex-1">
+                {/*<a href="/assets/Lynn_Kati_CV.pdf" download className="flex-1">*/}
                   <Button
                     variant="outline"
                     size="sm"
@@ -190,7 +190,7 @@ const Contact = () => {
                 </a>
 
                 {/* Schedule Call */}
-                <a href="https://calendly.com/lynn-kati/30min" target="_blank" rel="noopener noreferrer" className="flex-1">
+                <a href="https://calendly.com/app/personal/profile" target="_blank" rel="noopener noreferrer" className="flex-1">
                   <Button variant="default" size="sm" className="w-full">
                     Schedule Call
                   </Button>
