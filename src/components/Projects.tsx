@@ -28,7 +28,7 @@ const Projects = () => {
   {
     title: "Web3.0 Multiplayer Gaming App",
     description: "A multiplayer Web3.0 NFT card game powered by Avalanche. Choose your own characters, select your battleground, and battle other players in real time. With a stunning design, interactive gameplay, smart wallet pairing, live interaction with smart contracts, and, most importantly, the ability to battle other players in real-time, AvaxGods is the only Web3 battle-style online multiplayer card game.",
-    tech: ["React", "Smart Contracts", "Node.js", "Wallets", "Tailwind CSS"],
+    tech: ["React", "Smart Contracts", "Node.js", "Wallets", "Tailwind CSS","Solidity","NFTs"],
     category: "Blockchain / Web3 Application",
     icon: "Database",
     highlights: [
