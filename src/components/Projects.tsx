@@ -11,7 +11,7 @@ const Projects = () => {
     title: "Cardano Wallet Connector & ADA Transfer DApp",
     description:
       "A decentralized application (DApp) built with React that connects to Cardano wallets, enabling users to securely send and receive ADA. Implements smart contract functionality for blockchain transactions and provides a Web3 interface for seamless interaction between the frontend and the Cardano network.",
-    tech: ["React.js", "JavaScript", "Cardano Blockchain", "Smart Contracts", "Solidity",],
+    tech: ["React.js", "JavaScript", "Cardano Blockchain", "Smart Contracts", "Solidity","Crypto"],
     category: "Blockchain / Web3 Application",
     icon: Database,
     highlights: [
@@ -22,11 +22,28 @@ const Projects = () => {
       "Secure and decentralized transaction workflow"
     ],
     status: "In Progress",
-    github: "https://github.com/yourusername/cardano-wallet-dapp",
-    demo: "https://your-demo-link.vercel.app/"
+    github: "https://github.com/kaylakyle/web-3.0-blockchain-smart-contracts",
+    demo: "https://github.com/kaylakyle/web-3.0-blockchain-smart-contracts"
   },
+  {
+    title: "Web3.0 Multiplayer Gaming App",
+    description: "A multiplayer Web3.0 NFT card game powered by Avalanche. Choose your own characters, select your battleground, and battle other players in real time. With a stunning design, interactive gameplay, smart wallet pairing, live interaction with smart contracts, and, most importantly, the ability to battle other players in real-time, AvaxGods is the only Web3 battle-style online multiplayer card game.",
+    tech: ["React", "Smart Contracts", "Node.js", "Wallets", "Tailwind CSS"],
+    category: "Web Application",
+    icon: "Database",
+    highlights: [
+      "Real-time Multiplayer Battles",
+      "Smart Wallet Integration",
+      "Customizable NFT Characters",
+      "Interactive Battle Grounds",
+      "Live Smart Contract Interaction"
+    ],
+    status: "In Progress",
+    github: "https://github.com/YOUR-USERNAME/project_web3_battle_game",
+    demo: "https://YOUR-DEMO-LINK.vercel.app/"   
+    },
     {
-      title: "Safe-haven-africa",
+     title: "Safe-haven-africa",
       description:
         "A privacy-focused mental health web application designed to support survivors of digital harm across Africa through anonymous access to CBT tools, guided breathing, journaling and verified crisis resources.",
       tech: ["TypeScript", "React", "MongoDB", "Node.js", "Express", "Tailwind CSS"],
@@ -35,31 +52,7 @@ const Projects = () => {
       highlights: ["Anonymous Authentication", "African Crisis Resources", "Privacy-First Design"],
       status: "Completed",
       github: "https://github.com/kaylakyle/safe-haven-africa..",
-      demo: "https://safe-haven-africa.vercel.app/"    
-    },
-    {
-      title: "Advanced-Electricity-Billing-System",
-      description:
-        "A Web-based electricity billing system that streamlines billing processes, manages customer data, and generates detailed reports for efficient utility management.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      category: "Web Application",
-      icon: Code,
-      highlights: ["User Authentication", "Customer Management", "Billing and Payment Processing", "Report Generation"],
-      status: "Completed",
-      github: "https://github.com/kaylakyle/Advanced-Electricity-Billing-System",
-      demo: "https://advanced-electricity-billing-system.vercel.app/"
-    },
-    {
-      title: "Personal Portfolio Website",
-      description:
-        "Responsive portfolio showcasing my projects and skills with modern design principles and smooth animations.",
-      tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      category: "Web Application",
-      icon: Globe,
-      highlights: ["Mobile-First Design", "CSS Animations", "SEO Optimized"],
-      status: "Current Project",
-      github: "https://github.com/yourusername/portfolio",
-      demo: "https://yourportfolio.vercel.app"
+      demo: "https://safe-haven-africa.vercel.app/"   
     },
     {
       title: "COVID19-Research-Analysis",
