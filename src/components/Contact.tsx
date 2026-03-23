@@ -19,9 +19,9 @@ import {
 const Contact = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: ""
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -33,19 +33,19 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Option B: Simple mailto
-    const mailtoLink = `mailto:lynnkati18@gmail.com?subject=Message from ${encodeURIComponent(
-      formData.name
-    )}&body=${encodeURIComponent(formData.message + "\n\nFrom: " + formData.email)}`;
-    
-    window.location.href = mailtoLink;
+
+    const phoneNumber = "254708332396"; // your number in international format (Kenya)
+    const whatsappMessage = `Hello Lynn, I am ${formData.name} (${formData.email}). Message: ${formData.message}`;
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    window.open(whatsappLink, "_blank"); // opens WhatsApp Web or App
 
     toast({
       title: "Message ready to send!",
-      description: "Your email client will open. Make sure to send it 🙂",
+      description: "WhatsApp will open with your message ready 🙂"
     });
 
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: "", email: "", message: "" });
   };
 
   const contactInfo = [
@@ -80,33 +80,32 @@ const Contact = () => {
                   Send me a message
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  Fill out the form below and your email client will open to send the message.
+                  Fill out the form below and your WhatsApp will open to send the message directly to my phone.
                 </p>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
-                    <Label htmlFor="name" className="text-foreground font-medium">Your Name</Label>
+                    <Label htmlFor="name">Your Name</Label>
                     <Input
                       id="name" name="name" value={formData.name} onChange={handleChange}
-                      placeholder="What should I call you?" required className="bg-background border-border focus:border-primary"
+                      placeholder="What should I call you?" required
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="email" className="text-foreground font-medium">Email Address</Label>
+                    <Label htmlFor="email">Email Address</Label>
                     <Input
                       id="email" name="email" type="email" value={formData.email} onChange={handleChange}
-                      placeholder="your.email@example.com" required className="bg-background border-border focus:border-primary"
+                      placeholder="your.email@example.com" required
                     />
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message" className="text-foreground font-medium">Message</Label>
+                    <Label htmlFor="message">Message</Label>
                     <Textarea
                       id="message" name="message" value={formData.message} onChange={handleChange}
-                      placeholder="Tell me about your project, opportunity, or just say hi!"
-                      rows={5} required className="bg-background border-border focus:border-primary resize-none"
+                      placeholder="Tell me about your project, opportunity, or just say hi!" rows={5} required
                     />
                   </div>
 
