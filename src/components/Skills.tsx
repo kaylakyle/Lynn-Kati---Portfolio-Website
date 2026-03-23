@@ -27,6 +27,18 @@ const Skills = () => {
       ]
     },
     {
+  title: "Blockchain & Web3",
+  icon: Database,
+  color: "bg-gradient-purple",
+  skills: [
+    { name: "Solidity", level: "Intermediate" },
+    { name: "Smart Contracts", level: "Intermediate" },
+    { name: "Ethereum / Avalanche", level: "Intermediate" },
+    { name: "Web3.js / Ethers.js", level: "Intermediate" },
+    { name: "NFT Development", level: "Beginner" }
+  ]
+},
+    {
       title: "Tools & Technologies",
       icon: Database,
       color: "bg-gradient-accent",
@@ -65,11 +77,8 @@ const Skills = () => {
   ];
 
   const currentLearning = [
-    "Mobile App Development",
-    "Advanced Database Design",
-    "AI in Software Engineering",
-    "Machine Learning Basics",
-    "Agile Development Practices"
+    "Blockchain Development",
+    "System Design"
   ];
 
   const getLevelColor = (level: string) => {
